@@ -11,8 +11,8 @@
     <TabItem Header="List Images">
       <local:ImageList x:Name="ctrImageList"/>
     </TabItem>
-    <TabItem Header="Edit Customer">
-      <!-- Place the Customer Edit Control here-->
+    <TabItem Header="Edit Customer" Height="22" VerticalAlignment="Top">
+        <local:CustomerEdit x:Name="ctrCustomerEdit"/>
     </TabItem>
   </TabControl>
 </Window>
